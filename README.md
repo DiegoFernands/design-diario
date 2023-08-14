@@ -1,2 +1,3 @@
 # design-diario
-Diário Design
+
+Diário Design em desenvolvimento mobile-first
