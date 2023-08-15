@@ -53,16 +53,13 @@ body {
 }
 .section-link {
     height: 20px;
-}
-
-.section-link {
-    padding-left: 16px;
+    padding: 0 16px 0 16px;
 }
 
 .container-link {
     display: flex;
-    padding: 0 0 16px 0;
     overflow-x: auto;
+    height: 20px;
     margin-top: 20px;
     gap: 36px;
 }
@@ -82,12 +79,16 @@ body {
     border-bottom: 3px solid #FEDB41;
 }
 
+.section-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .container-card {
     display: flex;
     overflow-x: auto;
     gap: 16px;
-    padding: 0px 0 10px 16px;
-    height: 250px;
+    padding: 0 16px 0 16px;
 }
 
 
@@ -120,7 +121,7 @@ body {
 .section-blog {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 .card-blog {
@@ -310,6 +311,10 @@ body {
         width: 100px;
     }
 
+    .container-card {
+        justify-content: center;
+    }
+
     .section-blog {
         align-items: center;
     }
@@ -361,7 +366,7 @@ body {
     .card-people {
         align-items: center;
     }
-    
+
     .container-footer a:hover {
         color: white;
     }
