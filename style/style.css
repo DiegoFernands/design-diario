@@ -20,6 +20,15 @@ body {
     width: 100px;
 }
 
+.btn-search {
+    width: 38px;
+    height: 35px;
+    border-radius: 60px;
+    border: none;
+    background-color: var(--bg-main);
+    color: white;
+}
+
 .help-profile {
     display: flex;
     align-items: center;
@@ -112,6 +121,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 .card-blog {
     display: flex;
@@ -125,7 +135,7 @@ body {
     font-size: 22px;
     font-weight: 700;
     margin-left: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .card-img-top-blog {
@@ -134,24 +144,22 @@ body {
 }
     
 .card-people {
-    margin-top: 22px;
-    margin-left: 16px;
-    display: flex;
-    flex-direction: column;
+   display: flex;
+   flex-direction: column;
+   padding: 0 0 0 16px;
 }
 
 .container-people {
     display: flex;
     overflow-x: auto;
-    align-items: center;
-    justify-content: center;
     gap: 16px;
-    padding: 0 0 16px 16px;
+    height: 265px;
 }
 
 .tilte-card-people {
     font-size: 22px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .bg-card-people {
@@ -214,7 +222,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 360px;
+    width: 100%;
     height: 48px;
     background-color: #5a5a5a;
 }
@@ -226,6 +234,7 @@ body {
     padding-left: 16px;
 }
 
+
 .container-footer a {
     text-decoration: none;
     padding-left: 16px;
@@ -234,6 +243,8 @@ body {
     color: var(--bg-main);
     padding-right: 16px;
 }
+
+
 
 .section-fixed {
     position: fixed;
@@ -270,6 +281,10 @@ body {
 
     .container-people {
         overflow-x: scroll;
+    }
+    
+    .container-search-top {
+        display: none;
     }
   }
 
@@ -325,5 +340,31 @@ body {
         border-bottom: 3px solid yellow;
         transition: all 200ms ease-in-out;
     }
+
+    .container-footer {
+        height: 60px;
+        justify-content: space-around;
+    }
+
+    .container-footer p {
+        font-size: 20px;
+    }
+
+    .container-footer a {
+        font-size: 18px;
+    }
+
+    .section-fixed {
+        display: none;
+    }
+
+    .card-people {
+        align-items: center;
+    }
+    
+    .container-footer a:hover {
+        color: white;
+    }
+
   }
 
